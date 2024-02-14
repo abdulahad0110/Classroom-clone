@@ -1,0 +1,220 @@
+
+
+a{
+    text-decoration: none;
+}
+.fluid-container{
+    border: 1px solid red;
+}
+#head{
+    width: 100%;
+    height: 64px;
+    margin-top: 12px;
+    background-color: white;
+    box-shadow: 0 3px 2px -2px gray;
+    /* border-bottom: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+.left{
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.right{
+    float: right;
+}
+.left .selector{
+    display: inline;
+    padding: 12px;
+}
+.left .logo-img{
+    width: 32px;
+    height: 32px;
+}
+.left .logo{
+    display: flex;
+    align-items: center;
+}
+.left .logo, .left h1, .left a{
+    display: inline;
+}
+.classroom-logo{
+    width: 32px;
+    height: 32px;
+    margin: 12px;
+}
+.classroom-heading{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #5f6368;
+    margin-left: 0.625rem;
+}
+.right .add-icon{
+    display: inline;
+    width: 16px;
+    height: 16px;
+    padding: 12px;
+    margin: 12px;
+}
+.right .add-logo{
+    width: 18px;
+    height: 18px;
+}
+.right .selector-icon{
+    display: inline;
+    height: 48px;
+    width: 48px;
+    padding: 12px;
+    margin: 12px;
+}
+.right .selector-logo{
+    width: 18px;
+    height: 18px;
+}
+.right .user-icon{
+    display: inline;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 50%;
+}
+.right .user-logo{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.section_1{
+    height: 70vh;
+    width: 300px;
+    padding: 8px 0px;
+    background-color: #fff;
+    overflow-y: scroll;
+    box-shadow: 3px -3px 2px -2px gray;
+    padding-right: 0.75rem;
+    z-index: -1;
+}
+.box_1{
+    height: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 1.25rem;
+    margin-bottom: 0.35rem;
+    z-index: 2;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.box-logo{
+    height: 18px;
+    width: 18px;
+}
+.para{
+    letter-spacing: .01785714em;
+    font-size: 0.975rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    padding: 0.875rem 0px;
+    padding-left: 2rem;
+    height: 20px;
+    color: #3c4043;
+}
+
+.heading-4, h4{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: brown;
+    color: beige;
+    text-align: center;
+}
+.dtl{
+    margin-left: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 7px;
+}
+.p{
+    letter-spacing: .01785714em;
+    font-size: 0.975rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+    height: 20px;
+    color: #3c4043;
+}
+.en{
+    letter-spacing: .01785714em;
+    font-size: 12px;
+    font-weight: 500;
+    color: #5f6368; 
+}
+
+.content{
+    padding: 24px 0 0 24px;
+    position: absolute;
+    left: 329px;
+    top: 99px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.BOX{
+    width: 300px;
+    height: 294px;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    border: 1px solid gray;
+    margin: 0px 28px 28px 0px;
+    border-radius: 15px;
+}
+.box-top{
+    width: 300px;
+    height: 100px;   
+    background-color:chocolate;
+    padding-left: 14px;
+    padding-top: 14px;
+}
+.hd{
+    font-size: 22px;
+    color: #fff;
+    width: 250px;
+    overflow: hidden;
+}
+.h-d{
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 4px;
+}
+.name{
+    font-size: 13px;
+    color: #fff;
+}
+.box-mid{
+    width: 300px;
+    height: 140px;
+    padding: 16px;
+    padding-top: 12px;
+}
+.box-end{
+    height: 54px;
+    padding: 4px;
+    margin-right: 20px;
+    border-top: 1px solid gray ;
+}
+.box-logo{
+    width: 24px;
+    height: 24px;
+    margin: 9px;
+    float: right;
+}
+.user-img{
+    height: 75px;
+    width: 75px;
+    float: right;
+    border-radius: 50%;
+    margin: -50px 0px 0px;
+}
